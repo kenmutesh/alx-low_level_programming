@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * size off cheacker
- * 
- * Main entery point
- * 
- * Return always 0 (success)
- */
+ *  *size off cheacker
+ *   *
+ *    * Main entery point
+ *     *
+ *      *Return always 0 (success)
+ *       */
 
 main()
 
@@ -22,4 +22,5 @@ main()
 	printf("sizeof a  long int is : %d - byte\n", sizeof(long int));
 	printf("sizeof a  long long int is : %d - byte\n", sizeof(long long int));
 	return (0);
+
 }

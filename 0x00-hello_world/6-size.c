@@ -1,26 +1,18 @@
 #include <stdio.h>
 /**
- *  *size off cheacker
- *   *
- *    * Main entery point
- *     *
- *      *Return always 0 (success)
- *       */
-
-main()
-
+ * main - computes sizes of various data types
+ * 
+ * Return: zero
+ */
+int main(void)
 {
-	char           ch = ' ';
-	int            int_num = 0;
-	float          flt_num = 0.0f;
-	long int       long_int_num = 0;
-	long long int  long_long_int_num = 0;
-
-	printf("sizeof a  char is : %d - byte\n", sizeof(char));
-	printf("sizeof an int  is : %d - byte\n", sizeof(int));
-	printf("sizeof a  float is : %d - byte\n", sizeof(float));
-	printf("sizeof a  long int is : %d - byte\n", sizeof(long int));
-	printf("sizeof a  long long int is : %d - byte\n", sizeof(long long int));
+	char c;
+	int i;
+	float f;
+	printf("Size of a char: %lu byte\(s\)\n", sizeof(c));
+	printf("Size of an int: %lu byte\(s\)\n", sizeof(i));
+	printf("Size of a long int: %lu byte\(s\)\n", sizeof(long int));
+	printf("Size of a long long int: %lu byte\(s\)\n", sizeof(long long int));
+	printf("Size of a float: %lu byte\(s\)\n", sizeof(f));
 	return (0);
-
 }

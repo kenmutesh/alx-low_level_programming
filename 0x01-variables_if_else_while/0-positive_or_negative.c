@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 /**
+ * main - Determines if a number is positive, negative or zero.
  * betty style doc for function main goes there
  * this generates random number 
  * and returns 0
